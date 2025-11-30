@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BERN'S BOOKS</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d435d9ffd.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <header>
     <nav class="navbar" role="navigation" aria-label="Main navigation"> 
         <div class="navbar__container">
-            <a href="/" id="navbar-logo">BERN'S BOOKS</a>
+            <a href="/" id="navbar__logo">BERN'S BOOKS</a>
             <ul class="navbar__menu">
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">Home</a>
@@ -22,13 +23,14 @@
                     <a href="/reviews.html" class="navbar__links">Reviews</a>
                 </li>
                 <li class="navbar__btn mobile">
-                    <a href="/contact.html" class="navbar__links">Contact</a>
+                    <a href="/signup.html" class="button">Sign Up</a>
                 </li>
             </ul>
 
             <div class="navbar__btn desktop">
-                <a href="/contact.html" class="button">Contact</a>
+                <a href="/signup.html" class="button">Sign Up</a>
             </div>
+
             <button 
             class="navbar__toggle" 
             id="mobile_menu" 
@@ -36,10 +38,12 @@
             aria-expanded=""
             false
             >
-                <i class="fas fa-bars"></i>
+                <i class="fa-solid fa-bars"></i>
             </button>
         </div>
     </nav>
    </header>
+
+   <script src="app.js"></script>
 </body>
 </html>
